@@ -1,0 +1,1928 @@
+{
+"skeleton": { "hash": "3yvDFB2NYm8B1k8s9ZDQPVXJ7Mk", "spine": "3.6.53", "width": 112, "height": 132, "images": "./images/" },
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "back", "parent": "root", "color": "ff0000ff" },
+	{ "name": "front", "parent": "root", "color": "02ff00ff" }
+],
+"slots": [
+	{ "name": "sil_s_0010", "bone": "back", "attachment": "sil_s_0010" },
+	{ "name": "sil_box00", "bone": "front", "attachment": "sil_box00" }
+],
+"skins": {
+	"default": {
+		"sil_box00": {
+			"sil_box00": { "width": 140, "height": 165 }
+		},
+		"sil_s_0010": {
+			"sil_s_0010": { "width": 140, "height": 165 },
+			"sil_s_0020": { "width": 140, "height": 165 },
+			"sil_s_0025": { "width": 140, "height": 165 },
+			"sil_s_0030": { "width": 140, "height": 165 },
+			"sil_s_0040": { "width": 140, "height": 165 },
+			"sil_s_0050": { "width": 140, "height": 165 },
+			"sil_s_0100": { "width": 140, "height": 165 },
+			"sil_s_0150": { "width": 140, "height": 165 },
+			"sil_s_0200": { "width": 140, "height": 165 },
+			"sil_s_0250": { "width": 140, "height": 165 },
+			"sil_s_0300": { "width": 140, "height": 165 },
+			"sil_s_0400": { "width": 140, "height": 165 },
+			"sil_s_0500": { "width": 140, "height": 165 },
+			"sil_s_0600": { "width": 140, "height": 165 },
+			"sil_s_0800": { "width": 140, "height": 165 },
+			"sil_s_1000": { "width": 140, "height": 165 },
+			"sil_s_BM": { "width": 140, "height": 165 },
+			"sil_s_Bpot": { "width": 140, "height": 165 },
+			"sil_s_Gpot": { "width": 140, "height": 165 },
+			"sil_s_Spot": { "width": 140, "height": 165 },
+			"sil_s_miss": { "width": 140, "height": 165 },
+			"sil_s_multi": { "width": 140, "height": 165 }
+		}
+	}
+},
+"animations": {
+	"sil_0010": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0020": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0020" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0025": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0025" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0030": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0030" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0040": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0040" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0050": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0050" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0100": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0100" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0150": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0150" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0200": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0200" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0250": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0250" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0300": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0300" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0400": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0400" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0500": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0500" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0600": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0600" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_0800": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_0800" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_1000": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_1000" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_BM": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_BM" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_Bpot": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{
+						"time": 0,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"color": "d78e67ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_Bpot" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_Gpot": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{
+						"time": 0,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"color": "d7bc67ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_Gpot" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_Spot": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{ "time": 0, "color": "6f67d7ff", "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_Spot" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_miss": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{
+						"time": 0,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"color": "d76767ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_miss" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	},
+	"sil_multi": {
+		"slots": {
+			"sil_box00": {
+				"color": [
+					{
+						"time": 0.2,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "color": "d79267ff" }
+				]
+			},
+			"sil_s_0010": {
+				"color": [
+					{
+						"time": 0,
+						"color": "6f67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"color": "8a67d7ff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.7667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "sil_s_multi" }
+				]
+			}
+		},
+		"bones": {
+			"front": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.1,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.01, "y": 1 }
+				]
+			},
+			"back": {
+				"scale": [
+					{ "time": 0, "x": 0.01, "y": 1, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 0.01,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"x": 0.905,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.6667,
+				"offsets": [
+					{ "slot": "sil_s_0010", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,13 @@
+
+winShine.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_shine
+  rotate: false
+  xy: 2, 2
+  size: 532, 532
+  orig: 556, 556
+  offset: 12, 12
+  index: -1

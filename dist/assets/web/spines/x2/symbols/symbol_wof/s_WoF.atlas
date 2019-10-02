@@ -1,0 +1,272 @@
+
+s_WoF.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_shine
+  rotate: false
+  xy: 2, 1510
+  size: 532, 532
+  orig: 556, 556
+  offset: 12, 12
+  index: -1
+wof_5ofaKind
+  rotate: false
+  xy: 1814, 1596
+  size: 221, 166
+  orig: 227, 171
+  offset: 3, 2
+  index: -1
+wof_A
+  rotate: false
+  xy: 943, 175
+  size: 285, 285
+  orig: 285, 285
+  offset: 0, 0
+  index: -1
+wof_B
+  rotate: true
+  xy: 836, 1141
+  size: 267, 264
+  orig: 285, 285
+  offset: 9, 11
+  index: -1
+wof_BPot
+  rotate: true
+  xy: 1230, 227
+  size: 233, 157
+  orig: 246, 170
+  offset: 6, 7
+  index: -1
+wof_C
+  rotate: false
+  xy: 2, 1185
+  size: 323, 323
+  orig: 328, 328
+  offset: 2, 3
+  index: -1
+wof_GPot
+  rotate: true
+  xy: 1098, 908
+  size: 231, 155
+  orig: 243, 169
+  offset: 6, 7
+  index: -1
+wof_GUIDE
+  rotate: false
+  xy: 641, 779
+  size: 305, 315
+  orig: 328, 328
+  offset: 15, 5
+  index: -1
+wof_JP
+  rotate: false
+  xy: 2, 24
+  size: 281, 185
+  orig: 287, 191
+  offset: 3, 3
+  index: -1
+wof_Pick_AllPots
+  rotate: false
+  xy: 1230, 93
+  size: 202, 132
+  orig: 233, 162
+  offset: 15, 15
+  index: -1
+wof_SPot
+  rotate: false
+  xy: 943, 16
+  size: 234, 157
+  orig: 248, 170
+  offset: 7, 7
+  index: -1
+wof_SiL
+  rotate: true
+  xy: 1174, 1537
+  size: 185, 166
+  orig: 188, 170
+  offset: 1, 3
+  index: -1
+wof__000
+  rotate: false
+  xy: 319, 276
+  size: 305, 315
+  orig: 328, 328
+  offset: 15, 5
+  index: -1
+wof__001
+  rotate: true
+  xy: 626, 153
+  size: 307, 315
+  orig: 328, 328
+  offset: 14, 5
+  index: -1
+wof__002
+  rotate: false
+  xy: 626, 462
+  size: 308, 315
+  orig: 328, 328
+  offset: 13, 5
+  index: -1
+wof__003
+  rotate: true
+  xy: 536, 1410
+  size: 311, 316
+  orig: 328, 328
+  offset: 11, 5
+  index: -1
+wof__004
+  rotate: true
+  xy: 518, 1096
+  size: 312, 316
+  orig: 328, 328
+  offset: 10, 5
+  index: -1
+wof__005
+  rotate: true
+  xy: 323, 780
+  size: 314, 316
+  orig: 328, 328
+  offset: 8, 5
+  index: -1
+wof__006
+  rotate: false
+  xy: 2, 211
+  size: 315, 317
+  orig: 328, 328
+  offset: 7, 5
+  index: -1
+wof__007
+  rotate: false
+  xy: 1496, 1725
+  size: 316, 317
+  orig: 328, 328
+  offset: 6, 6
+  index: -1
+wof__008
+  rotate: false
+  xy: 1177, 1725
+  size: 317, 317
+  orig: 328, 328
+  offset: 6, 6
+  index: -1
+wof__009
+  rotate: false
+  xy: 857, 1724
+  size: 318, 318
+  orig: 328, 328
+  offset: 6, 6
+  index: -1
+wof__010
+  rotate: false
+  xy: 536, 1723
+  size: 319, 319
+  orig: 328, 328
+  offset: 6, 6
+  index: -1
+wof__011
+  rotate: false
+  xy: 2, 864
+  size: 319, 319
+  orig: 328, 328
+  offset: 6, 6
+  index: -1
+wof_back
+  rotate: false
+  xy: 936, 462
+  size: 296, 315
+  orig: 328, 328
+  offset: 15, 5
+  index: -1
+wof_blur
+  rotate: false
+  xy: 2, 530
+  size: 304, 332
+  orig: 310, 345
+  offset: 3, 7
+  index: -1
+wof_everyonesAwinner
+  rotate: false
+  xy: 606, 2
+  size: 257, 149
+  orig: 261, 154
+  offset: 2, 2
+  index: -1
+wof_expandingWilds
+  rotate: true
+  xy: 948, 883
+  size: 256, 148
+  orig: 260, 153
+  offset: 2, 2
+  index: -1
+wof_front
+  rotate: true
+  xy: 319, 7
+  size: 267, 285
+  orig: 328, 328
+  offset: 37, 21
+  index: -1
+wof_frontText
+  rotate: true
+  xy: 1814, 1764
+  size: 278, 212
+  orig: 328, 328
+  offset: 42, 54
+  index: -1
+wof_fs
+  rotate: false
+  xy: 327, 1117
+  size: 164, 113
+  orig: 173, 123
+  offset: 4, 5
+  index: -1
+wof_pickMe
+  rotate: false
+  xy: 308, 593
+  size: 237, 185
+  orig: 243, 191
+  offset: 3, 3
+  index: -1
+wof_randomWilds
+  rotate: true
+  xy: 854, 1497
+  size: 224, 149
+  orig: 228, 154
+  offset: 2, 2
+  index: -1
+wof_wildLink
+  rotate: true
+  xy: 1005, 1501
+  size: 221, 167
+  orig: 227, 172
+  offset: 3, 2
+  index: -1
+wof_wof
+  rotate: true
+  xy: 327, 1232
+  size: 276, 189
+  orig: 282, 193
+  offset: 3, 2
+  index: -1
+wof_x2
+  rotate: false
+  xy: 1342, 1631
+  size: 132, 92
+  orig: 139, 96
+  offset: 4, 2
+  index: -1
+wof_x3
+  rotate: false
+  xy: 948, 789
+  size: 136, 92
+  orig: 141, 96
+  offset: 3, 2
+  index: -1
+wof_x4
+  rotate: false
+  xy: 1476, 1631
+  size: 132, 92
+  orig: 139, 96
+  offset: 4, 2
+  index: -1

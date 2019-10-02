@@ -1,0 +1,160 @@
+
+s_WoF.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_shine
+  rotate: false
+  xy: 2, 1309
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1
+wof_A
+  rotate: false
+  xy: 958, 619
+  size: 285, 285
+  orig: 285, 285
+  offset: 0, 0
+  index: -1
+wof_B
+  rotate: false
+  xy: 958, 353
+  size: 267, 264
+  orig: 285, 285
+  offset: 9, 11
+  index: -1
+wof_C
+  rotate: false
+  xy: 2, 979
+  size: 328, 328
+  orig: 328, 328
+  offset: 0, 0
+  index: -1
+wof_GUIDE
+  rotate: false
+  xy: 332, 985
+  size: 312, 322
+  orig: 328, 328
+  offset: 11, 1
+  index: -1
+wof__000
+  rotate: true
+  xy: 872, 1227
+  size: 312, 322
+  orig: 328, 328
+  offset: 11, 1
+  index: -1
+wof__001
+  rotate: true
+  xy: 1196, 1227
+  size: 312, 322
+  orig: 328, 328
+  offset: 11, 1
+  index: -1
+wof__002
+  rotate: true
+  xy: 646, 910
+  size: 315, 322
+  orig: 328, 328
+  offset: 9, 1
+  index: -1
+wof__003
+  rotate: false
+  xy: 1294, 904
+  size: 316, 321
+  orig: 328, 328
+  offset: 8, 2
+  index: -1
+wof__004
+  rotate: true
+  xy: 970, 906
+  size: 319, 322
+  orig: 328, 328
+  offset: 6, 2
+  index: -1
+wof__005
+  rotate: true
+  xy: 634, 588
+  size: 320, 322
+  orig: 328, 328
+  offset: 5, 2
+  index: -1
+wof__006
+  rotate: false
+  xy: 1523, 1542
+  size: 321, 323
+  orig: 328, 328
+  offset: 4, 2
+  index: -1
+wof__007
+  rotate: false
+  xy: 1199, 1541
+  size: 322, 324
+  orig: 328, 328
+  offset: 3, 2
+  index: -1
+wof__008
+  rotate: false
+  xy: 2, 2
+  size: 323, 323
+  orig: 328, 328
+  offset: 3, 3
+  index: -1
+wof__009
+  rotate: false
+  xy: 2, 327
+  size: 324, 324
+  orig: 328, 328
+  offset: 3, 3
+  index: -1
+wof__010
+  rotate: false
+  xy: 2, 653
+  size: 325, 324
+  orig: 328, 328
+  offset: 3, 3
+  index: -1
+wof__011
+  rotate: false
+  xy: 872, 1541
+  size: 325, 324
+  orig: 328, 328
+  offset: 3, 3
+  index: -1
+wof_back
+  rotate: false
+  xy: 329, 655
+  size: 303, 322
+  orig: 328, 328
+  offset: 11, 1
+  index: -1
+wof_blur
+  rotate: false
+  xy: 560, 1520
+  size: 310, 345
+  orig: 310, 345
+  offset: 0, 0
+  index: -1
+wof_front
+  rotate: true
+  xy: 1245, 633
+  size: 269, 286
+  orig: 328, 328
+  offset: 36, 21
+  index: -1
+wof_frontText
+  rotate: true
+  xy: 1533, 617
+  size: 285, 218
+  orig: 328, 328
+  offset: 38, 51
+  index: -1
+wof_wof
+  rotate: true
+  xy: 1846, 1583
+  size: 282, 193
+  orig: 282, 193
+  offset: 0, 0
+  index: -1

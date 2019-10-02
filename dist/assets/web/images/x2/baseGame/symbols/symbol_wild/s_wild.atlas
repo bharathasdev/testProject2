@@ -1,0 +1,90 @@
+
+s_wild.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+purple
+  rotate: true
+  xy: 340, 157
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+s_wildFrame
+  rotate: true
+  xy: 560, 477
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 2, 2
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+wild
+  rotate: true
+  xy: 823, 687
+  size: 290, 166
+  orig: 290, 166
+  offset: 0, 0
+  index: -1
+wild__
+  rotate: false
+  xy: 2, 89
+  size: 336, 330
+  orig: 336, 330
+  offset: 0, 0
+  index: -1
+wild_blur
+  rotate: false
+  xy: 560, 741
+  size: 261, 236
+  orig: 261, 236
+  offset: 0, 0
+  index: -1
+wild_bottom
+  rotate: false
+  xy: 2, 39
+  size: 262, 48
+  orig: 262, 48
+  offset: 0, 0
+  index: -1
+wild_midL
+  rotate: true
+  xy: 340, 140
+  size: 15, 114
+  orig: 15, 114
+  offset: 0, 0
+  index: -1
+wild_midR
+  rotate: true
+  xy: 560, 460
+  size: 15, 114
+  orig: 15, 114
+  offset: 0, 0
+  index: -1
+wild_midStretch
+  rotate: false
+  xy: 991, 863
+  size: 31, 114
+  orig: 31, 114
+  offset: 0, 0
+  index: -1
+wild_top
+  rotate: true
+  xy: 770, 477
+  size: 262, 47
+  orig: 262, 47
+  offset: 0, 0
+  index: -1
+win_shine
+  rotate: false
+  xy: 2, 421
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1

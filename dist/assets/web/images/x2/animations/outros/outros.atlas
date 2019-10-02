@@ -1,0 +1,55 @@
+
+outros.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BM_outro
+  rotate: false
+  xy: 2, 2
+  size: 846, 164
+  orig: 846, 164
+  offset: 0, 0
+  index: -1
+SiL_outro
+  rotate: false
+  xy: 2, 168
+  size: 1066, 166
+  orig: 1066, 166
+  offset: 0, 0
+  index: -1
+bw_shine
+  rotate: false
+  xy: 2, 916
+  size: 1110, 1080
+  orig: 1110, 1080
+  offset: 0, 0
+  index: -1
+fs_outro
+  rotate: false
+  xy: 1114, 1596
+  size: 722, 167
+  orig: 722, 167
+  offset: 0, 0
+  index: -1
+gsg_outro
+  rotate: false
+  xy: 1114, 1765
+  size: 848, 231
+  orig: 848, 231
+  offset: 0, 0
+  index: -1
+m_outro
+  rotate: false
+  xy: 2, 336
+  size: 1210, 578
+  orig: 1210, 578
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 1070, 299
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1

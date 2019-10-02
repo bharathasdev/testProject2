@@ -1,5 +1,5 @@
 {
-  "name": "Innov8-Slots-Framework",
+  "name": "innov8-slots-framework",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -43,8 +43,16 @@
     "webpack-dev-server": "^3.3.1",
     "xml-loader": "^1.2.1"
   },
-  "description": "",
+  "description": "testProject2",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathasdev/testProject2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bharathasdev/testProject2/issues"
+  },
+  "homepage": "https://github.com/bharathasdev/testProject2#readme"
 }
