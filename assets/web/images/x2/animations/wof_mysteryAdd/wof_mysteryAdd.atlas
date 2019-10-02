@@ -1,0 +1,40 @@
+
+wof_mysteryAdd.png
+size: 2200,2200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spin
+  rotate: false
+  xy: 2, 2
+  size: 2196, 2196
+  orig: 2196, 2196
+  offset: 0, 0
+  index: -1
+
+wof_mysteryAdd2.png
+size: 1098,1029
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spin_mystery
+  rotate: false
+  xy: 780, 20
+  size: 316, 1007
+  orig: 438, 1025
+  offset: 61, 8
+  index: -1
+spin_mystery_blur
+  rotate: false
+  xy: 2, 20
+  size: 438, 1007
+  orig: 438, 1025
+  offset: 0, 8
+  index: -1
+spin_shine
+  rotate: false
+  xy: 442, 2
+  size: 336, 1025
+  orig: 438, 1025
+  offset: 51, 0
+  index: -1

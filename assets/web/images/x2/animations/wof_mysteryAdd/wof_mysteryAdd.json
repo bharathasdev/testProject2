@@ -1,0 +1,236 @@
+{
+"skeleton": { "hash": "QN1hYkLqv5G8zYMXrypJx5CRg54", "spine": "3.6.53", "width": 2196, "height": 2196, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "mystery", "parent": "root", "color": "0062ffff" },
+	{ "name": "shine", "parent": "root", "color": "fff600ff" },
+	{ "name": "wheel", "parent": "root", "color": "ff0000ff" }
+],
+"slots": [
+	{ "name": "spin", "bone": "wheel", "attachment": "spin" },
+	{ "name": "spin_mystery", "bone": "mystery", "attachment": "spin_mystery" },
+	{ "name": "spin_mystery_blur", "bone": "mystery", "attachment": "spin_mystery_blur" },
+	{ "name": "spin_shine", "bone": "shine", "attachment": "spin_shine" }
+],
+"skins": {
+	"default": {
+		"spin": {
+			"spin": { "width": 2196, "height": 2196 }
+		},
+		"spin_mystery": {
+			"spin_mystery": { "y": 524.12, "width": 438, "height": 1025 }
+		},
+		"spin_mystery_blur": {
+			"spin_mystery_blur": { "y": 524.12, "width": 438, "height": 1025 }
+		},
+		"spin_shine": {
+			"spin_shine": { "y": 524.12, "width": 438, "height": 1025 }
+		}
+	}
+},
+"animations": {
+	"00_fadeIn": {
+		"slots": {
+			"spin": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff00",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.8, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "spin" }
+				]
+			},
+			"spin_mystery": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_mystery_blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"wheel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -120 },
+					{ "time": 0.2667, "angle": 120 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": -120 },
+					{ "time": 0.6667, "angle": 120 },
+					{ "time": 0.8, "angle": 0 }
+				]
+			}
+		}
+	},
+	"01_mysteryAdd": {
+		"slots": {
+			"spin": {
+				"attachment": [
+					{ "time": 0, "name": "spin" }
+				]
+			},
+			"spin_mystery": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": "spin_mystery" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"spin_mystery_blur": {
+				"color": [
+					{ "time": 1.2, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 1.4,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.2, "name": "spin_mystery_blur" },
+					{ "time": 1.6, "name": null }
+				]
+			},
+			"spin_shine": {
+				"color": [
+					{
+						"time": 0.2333,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "spin_shine" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"wheel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -120 },
+					{ "time": 0.2667, "angle": 120 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": -120 },
+					{ "time": 0.6667, "angle": 120 },
+					{ "time": 0.8, "angle": 0 },
+					{ "time": 0.9333, "angle": -120 },
+					{ "time": 1.0667, "angle": 120 },
+					{ "time": 1.2, "angle": 0 },
+					{ "time": 1.3333, "angle": -120 },
+					{ "time": 1.4667, "angle": 120 },
+					{ "time": 1.6, "angle": 0 }
+				]
+			},
+			"mystery": {
+				"rotate": [
+					{ "time": 1.2, "angle": 0 },
+					{ "time": 1.4, "angle": -120 },
+					{ "time": 1.6, "angle": 120 }
+				]
+			},
+			"shine": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.1667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"02_fadeOut": {
+		"slots": {
+			"spin": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "spin" }
+				]
+			},
+			"spin_mystery": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_mystery_blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"wheel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -120 },
+					{ "time": 0.2667, "angle": 120 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": -120 },
+					{ "time": 0.6667, "angle": 120 },
+					{ "time": 0.8, "angle": 0 }
+				]
+			}
+		}
+	},
+	"03_loop": {
+		"slots": {
+			"spin": {
+				"attachment": [
+					{ "time": 0, "name": "spin" }
+				]
+			},
+			"spin_mystery": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_mystery_blur": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"spin_shine": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"wheel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": -120 },
+					{ "time": 0.3333, "angle": 120 },
+					{ "time": 0.5, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

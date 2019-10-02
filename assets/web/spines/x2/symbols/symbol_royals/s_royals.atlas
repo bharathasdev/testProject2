@@ -1,0 +1,90 @@
+
+s_royals.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s_ace
+  rotate: false
+  xy: 2, 30
+  size: 192, 188
+  orig: 196, 192
+  offset: 2, 2
+  index: -1
+s_ace_blur
+  rotate: false
+  xy: 536, 765
+  size: 192, 202
+  orig: 196, 214
+  offset: 2, 6
+  index: -1
+s_jack
+  rotate: true
+  xy: 199, 84
+  size: 150, 187
+  orig: 155, 200
+  offset: 3, 10
+  index: -1
+s_jack_blur
+  rotate: false
+  xy: 397, 230
+  size: 149, 203
+  orig: 155, 213
+  offset: 3, 5
+  index: -1
+s_king
+  rotate: false
+  xy: 548, 204
+  size: 179, 179
+  orig: 184, 184
+  offset: 2, 2
+  index: -1
+s_king_blur
+  rotate: false
+  xy: 536, 569
+  size: 177, 194
+  orig: 184, 205
+  offset: 2, 6
+  index: -1
+s_queen
+  rotate: false
+  xy: 199, 236
+  size: 196, 197
+  orig: 200, 199
+  offset: 2, 0
+  index: -1
+s_queen_blur
+  rotate: false
+  xy: 2, 220
+  size: 195, 213
+  orig: 200, 222
+  offset: 3, 3
+  index: -1
+s_ten
+  rotate: true
+  xy: 548, 385
+  size: 182, 172
+  orig: 187, 183
+  offset: 3, 9
+  index: -1
+s_ten_blur
+  rotate: false
+  xy: 730, 781
+  size: 180, 186
+  orig: 186, 196
+  offset: 3, 5
+  index: -1
+sparkle
+  rotate: false
+  xy: 2, 2
+  size: 25, 26
+  orig: 35, 35
+  offset: 5, 4
+  index: -1
+win_shine
+  rotate: false
+  xy: 2, 435
+  size: 532, 532
+  orig: 556, 556
+  offset: 12, 12
+  index: -1

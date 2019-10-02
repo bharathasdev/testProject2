@@ -1,0 +1,265 @@
+
+chara_hostess.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L1
+  rotate: false
+  xy: 1471, 227
+  size: 133, 97
+  orig: 135, 99
+  offset: 1, 1
+  index: -1
+arm_L2
+  rotate: false
+  xy: 150, 4
+  size: 143, 70
+  orig: 145, 72
+  offset: 1, 1
+  index: -1
+arm_L3
+  rotate: true
+  xy: 1178, 185
+  size: 57, 137
+  orig: 59, 139
+  offset: 1, 1
+  index: -1
+arm_R1
+  rotate: true
+  xy: 1183, 244
+  size: 80, 146
+  orig: 82, 148
+  offset: 1, 1
+  index: -1
+arm_R2
+  rotate: true
+  xy: 1606, 212
+  size: 112, 118
+  orig: 114, 120
+  offset: 1, 1
+  index: -1
+arm_R3_a
+  rotate: true
+  xy: 1998, 385
+  size: 125, 45
+  orig: 127, 47
+  offset: 1, 1
+  index: -1
+arm_R3_b
+  rotate: true
+  xy: 1151, 112
+  size: 71, 136
+  orig: 73, 138
+  offset: 1, 1
+  index: -1
+blink
+  rotate: false
+  xy: 1317, 175
+  size: 137, 64
+  orig: 139, 66
+  offset: 1, 1
+  index: -1
+body
+  rotate: true
+  xy: 342, 348
+  size: 162, 509
+  orig: 164, 511
+  offset: 1, 1
+  index: -1
+boobs
+  rotate: false
+  xy: 1011, 69
+  size: 138, 117
+  orig: 140, 119
+  offset: 1, 1
+  index: -1
+brow_L
+  rotate: false
+  xy: 1453, 75
+  size: 110, 39
+  orig: 112, 41
+  offset: 1, 1
+  index: -1
+brow_R
+  rotate: false
+  xy: 1726, 230
+  size: 45, 25
+  orig: 47, 27
+  offset: 1, 1
+  index: -1
+earring_L_back
+  rotate: true
+  xy: 1456, 163
+  size: 62, 118
+  orig: 64, 120
+  offset: 1, 1
+  index: -1
+earring_L_front
+  rotate: true
+  xy: 1453, 116
+  size: 45, 118
+  orig: 47, 120
+  offset: 1, 1
+  index: -1
+earring_R
+  rotate: true
+  xy: 1726, 257
+  size: 67, 107
+  orig: 69, 109
+  offset: 1, 1
+  index: -1
+eye_L
+  rotate: false
+  xy: 295, 32
+  size: 42, 42
+  orig: 44, 44
+  offset: 1, 1
+  index: -1
+eye_R
+  rotate: false
+  xy: 1240, 75
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+eyes_back
+  rotate: true
+  xy: 1400, 55
+  size: 118, 51
+  orig: 120, 53
+  offset: 1, 1
+  index: -1
+face
+  rotate: true
+  xy: 342, 82
+  size: 264, 326
+  orig: 266, 328
+  offset: 1, 1
+  index: -1
+hair_L
+  rotate: true
+  xy: 1183, 403
+  size: 107, 379
+  orig: 109, 381
+  offset: 1, 1
+  index: -1
+hair_R
+  rotate: true
+  xy: 1183, 326
+  size: 75, 379
+  orig: 77, 381
+  offset: 1, 1
+  index: -1
+hair_back
+  rotate: false
+  xy: 2, 76
+  size: 338, 434
+  orig: 340, 436
+  offset: 1, 1
+  index: -1
+hair_fringe
+  rotate: true
+  xy: 1564, 326
+  size: 184, 269
+  orig: 186, 271
+  offset: 1, 1
+  index: -1
+hair_front
+  rotate: true
+  xy: 853, 273
+  size: 237, 328
+  orig: 239, 330
+  offset: 1, 1
+  index: -1
+lashes_L
+  rotate: false
+  xy: 1240, 2
+  size: 85, 51
+  orig: 87, 53
+  offset: 1, 1
+  index: -1
+lashes_R
+  rotate: false
+  xy: 1998, 341
+  size: 39, 42
+  orig: 41, 44
+  offset: 1, 1
+  index: -1
+leg_L1
+  rotate: false
+  xy: 670, 22
+  size: 115, 324
+  orig: 117, 326
+  offset: 1, 1
+  index: -1
+leg_L2
+  rotate: false
+  xy: 1835, 294
+  size: 161, 216
+  orig: 168, 216
+  offset: 1, 0
+  index: -1
+leg_L3
+  rotate: true
+  xy: 853, 94
+  size: 92, 156
+  orig: 92, 156
+  offset: 0, 0
+  index: -1
+leg_R1
+  rotate: true
+  xy: 853, 188
+  size: 83, 323
+  orig: 85, 325
+  offset: 1, 1
+  index: -1
+leg_R2
+  rotate: false
+  xy: 787, 88
+  size: 64, 258
+  orig: 66, 260
+  offset: 1, 1
+  index: -1
+leg_R3
+  rotate: true
+  xy: 1835, 226
+  size: 66, 135
+  orig: 68, 137
+  offset: 1, 1
+  index: -1
+mouth_grin
+  rotate: false
+  xy: 1289, 87
+  size: 109, 86
+  orig: 111, 88
+  offset: 1, 1
+  index: -1
+mouth_ooh
+  rotate: true
+  xy: 1331, 241
+  size: 83, 138
+  orig: 85, 140
+  offset: 1, 1
+  index: -1
+mouth_smile
+  rotate: true
+  xy: 1151, 2
+  size: 108, 87
+  orig: 110, 89
+  offset: 1, 1
+  index: -1
+nose
+  rotate: true
+  xy: 2, 3
+  size: 71, 146
+  orig: 73, 148
+  offset: 1, 1
+  index: -1
+wink
+  rotate: false
+  xy: 787, 22
+  size: 80, 64
+  orig: 82, 66
+  offset: 1, 1
+  index: -1

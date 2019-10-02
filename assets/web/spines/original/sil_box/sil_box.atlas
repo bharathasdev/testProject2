@@ -1,0 +1,167 @@
+
+sil_box.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sil_box00
+  rotate: false
+  xy: 2, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0010
+  rotate: false
+  xy: 144, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0020
+  rotate: false
+  xy: 2, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0025
+  rotate: false
+  xy: 144, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0030
+  rotate: false
+  xy: 286, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0040
+  rotate: false
+  xy: 144, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0050
+  rotate: false
+  xy: 286, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0100
+  rotate: false
+  xy: 428, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0150
+  rotate: false
+  xy: 286, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0200
+  rotate: false
+  xy: 428, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0250
+  rotate: false
+  xy: 570, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0300
+  rotate: false
+  xy: 428, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0400
+  rotate: false
+  xy: 570, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0500
+  rotate: false
+  xy: 712, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0600
+  rotate: false
+  xy: 570, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_0800
+  rotate: false
+  xy: 712, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_1000
+  rotate: false
+  xy: 854, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_BM
+  rotate: false
+  xy: 712, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_Bpot
+  rotate: false
+  xy: 854, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_Gpot
+  rotate: false
+  xy: 996, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_Spot
+  rotate: false
+  xy: 854, 2
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_miss
+  rotate: false
+  xy: 996, 169
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1
+sil_s_multi
+  rotate: false
+  xy: 2, 336
+  size: 140, 165
+  orig: 140, 165
+  offset: 0, 0
+  index: -1

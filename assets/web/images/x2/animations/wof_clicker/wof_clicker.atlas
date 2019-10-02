@@ -1,0 +1,20 @@
+
+wof_clicker.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrowFull
+  rotate: false
+  xy: 2, 67
+  size: 168, 139
+  orig: 238, 143
+  offset: 70, 2
+  index: -1
+arrow_top
+  rotate: false
+  xy: 2, 2
+  size: 107, 63
+  orig: 107, 63
+  offset: 0, 0
+  index: -1

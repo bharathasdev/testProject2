@@ -1,0 +1,174 @@
+
+s_big.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bear
+  rotate: false
+  xy: 1852, 802
+  size: 186, 206
+  orig: 186, 206
+  offset: 0, 0
+  index: -1
+bearBack_blur
+  rotate: false
+  xy: 2, 212
+  size: 262, 238
+  orig: 262, 238
+  offset: 0, 0
+  index: -1
+bearFrame_blur
+  rotate: false
+  xy: 560, 770
+  size: 262, 238
+  orig: 262, 238
+  offset: 0, 0
+  index: -1
+bear_blur
+  rotate: false
+  xy: 530, 147
+  size: 184, 229
+  orig: 184, 229
+  offset: 0, 0
+  index: -1
+boat
+  rotate: false
+  xy: 824, 520
+  size: 117, 68
+  orig: 117, 68
+  offset: 0, 0
+  index: -1
+boat_blur
+  rotate: false
+  xy: 530, 53
+  size: 117, 92
+  orig: 117, 92
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 943, 521
+  size: 93, 67
+  orig: 93, 67
+  offset: 0, 0
+  index: -1
+car_blur
+  rotate: false
+  xy: 816, 427
+  size: 93, 91
+  orig: 93, 91
+  offset: 0, 0
+  index: -1
+caravan
+  rotate: false
+  xy: 732, 81
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+caravan_blur
+  rotate: false
+  xy: 649, 55
+  size: 81, 90
+  orig: 81, 90
+  offset: 0, 0
+  index: -1
+s_bearBack
+  rotate: false
+  xy: 2, 2
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+s_bearFrame
+  rotate: false
+  xy: 824, 800
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+s_starBack
+  rotate: false
+  xy: 266, 2
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+s_starFrame
+  rotate: false
+  xy: 824, 590
+  size: 262, 208
+  orig: 262, 208
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 530, 16
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+starA
+  rotate: false
+  xy: 1598, 842
+  size: 252, 166
+  orig: 252, 166
+  offset: 0, 0
+  index: -1
+starA_blur
+  rotate: false
+  xy: 1088, 818
+  size: 252, 190
+  orig: 252, 190
+  offset: 0, 0
+  index: -1
+starB
+  rotate: true
+  xy: 716, 151
+  size: 225, 184
+  orig: 225, 184
+  offset: 0, 0
+  index: -1
+starB_blur
+  rotate: false
+  xy: 1088, 608
+  size: 225, 208
+  orig: 225, 208
+  offset: 0, 0
+  index: -1
+starBack_blur
+  rotate: false
+  xy: 266, 212
+  size: 262, 238
+  orig: 262, 238
+  offset: 0, 0
+  index: -1
+starFrame_blur
+  rotate: false
+  xy: 560, 530
+  size: 262, 238
+  orig: 262, 238
+  offset: 0, 0
+  index: -1
+starPrize
+  rotate: false
+  xy: 560, 378
+  size: 254, 150
+  orig: 254, 150
+  offset: 0, 0
+  index: -1
+starPrize_blur
+  rotate: false
+  xy: 1342, 838
+  size: 254, 170
+  orig: 254, 170
+  offset: 0, 0
+  index: -1
+win_shine
+  rotate: false
+  xy: 2, 452
+  size: 556, 556
+  orig: 556, 556
+  offset: 0, 0
+  index: -1
